@@ -1,0 +1,177 @@
+/* white #EAEAEA */
+/* black #171712 */
+/* teal #9DDBAD */
+/* grey #4B4747 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: url(images/current-project-2.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* nav bar */
+
+nav ul {
+  list-style-type: none;
+  border-top: 6px solid #5B7553;
+  background-color: #171712;
+}
+
+nav ul li a {
+  text-decoration: none;
+  display: block;
+  color: #9ddbad;
+  text-align: center;
+  padding: 15px 25px;
+  font-size: 20px;
+}
+
+nav ul li a:hover {
+  color: #eaeaea;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  background: #9ddbad;
+  color: #171712;
+}
+
+.logo:hover {
+  background: #eaeaea;
+  color: #9ddbad;
+}
+
+.image-background {
+  background: #cef0d7;
+  height: 300px;
+  width: 135px;
+  box-shadow: 15px 10px 10px #b6f1c6;
+}
+
+#intro-slide {
+  /* width: 95%; */
+  /* min-height: 90vh; */
+  margin: 50px auto;
+  /* margin-top: 5px; */
+  padding: 50px 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eaeaea;
+  max-width: 95vw;
+ 
+}
+
+.intro {
+  display: block;
+  width: 45%;
+  padding: 20px;
+  word-spacing: 3px;
+  line-height: 2rem;
+  text-align: justify;
+  /* border: 3px solid red; */
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 40px;
+    
+    
+}
+
+i {
+    margin-right: 30px;
+   
+}
+
+.joyce-image {
+  padding: 20px;
+  box-shadow: 10px 5px 5px #b1d3bb;
+  border: 2px solid rgb(56, 55, 55);
+  border-radius: 25px;
+}
+
+ nav ul li {
+    flex: 1 0 auto;
+  }
+
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+ 
+  .logo {
+    display: block;
+    text-align: center;
+  }
+
+  .logo .fas {
+    display: none;
+  }
+
+ 
+  
+
+
+@media screen and (max-width: 576px) {
+  
+  .intro {
+    width: 100%;
+  }
+
+  #intro-slide {
+      flex-direction: column-reverse;
+      padding: 50px 0;
+  }
+}
+
+/* #### work section #### */
+
+#work-page{
+    display: flex;
+    justify-content: space-around;
+    background: #eaeaea;
+    margin: 10px auto;
+    padding: 90px 70px;
+}
+
+.card{
+    margin: 10px;
+    background: #cef0d7;
+}
+
+.project-title{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.project-button{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 15px 15px;
+    text-align: center;
+}
+
+#project {
+  /* margin-top: 20px; */
+    text-align: center;
+    padding-top: 90px;
+    
+}
+
